@@ -36,19 +36,8 @@ Este projeto foi desenvolvido como prática da formação **Docker Fundamentals*
 ## Arquitetura (para melhor visualização)
 
 ```
-                +-----------------------+
-                |        Master         |
-                |    10.10.10.100       |
-                |   Docker Manager      |
-                +-----------+-----------+
-                            |
-              -----------------------------
-              |                           |
-      +---------------+           +---------------+
-      |    Node001    |           |    Node002    |
-      | 10.10.10.101  |           | 10.10.10.102  |
-      | Docker Worker |           | Docker Worker |
-      +---------------+           +---------------+
+<img width="805" height="440" alt="Docker PNG exemplo" src="https://github.com/user-attachments/assets/91b3c9f9-bff5-4a9f-b2b6-e5f6f973ea33" />
+
 ```
 
 ---
