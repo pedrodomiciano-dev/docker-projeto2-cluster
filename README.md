@@ -38,7 +38,7 @@ Este projeto foi desenvolvido como prática da formação **Docker Fundamentals*
 ![Arquitetura do Cluster](images/Docker PNG exemplo.png)
 
 
-
+---
 
 ## Como executar
 
