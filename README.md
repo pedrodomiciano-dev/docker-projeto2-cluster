@@ -22,12 +22,15 @@ Este projeto foi desenvolvido como prática da formação **Docker Fundamentals*
 
 ## Estrutura do projeto
 
-```
+```text
 .
+├── images
+│   └── Docker PNG exemplo.png
 ├── Vagrantfile
 ├── docker.sh
-├── mestre.sh
-├── trabalhador.sh
+├── master.sh
+├── worker.sh
+├── README.md
 └── .gitignore
 ```
 
