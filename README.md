@@ -36,11 +36,10 @@ Este projeto foi desenvolvido como prática da formação **Docker Fundamentals*
 ## Arquitetura (para melhor visualização)
 
 ```
-<img width="805" height="440" alt="Docker PNG exemplo" src="https://github.com/user-attachments/assets/91b3c9f9-bff5-4a9f-b2b6-e5f6f973ea33" />
+
 
 ```
 
----
 
 ## Como executar
 
