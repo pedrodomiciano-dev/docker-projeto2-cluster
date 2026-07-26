@@ -33,7 +33,7 @@ Este projeto foi desenvolvido como prática da formação **Docker Fundamentals*
 
 ---
 
-## 🖥 Arquitetura
+## Arquitetura (para melhor visualização)
 
 ```
                 +-----------------------+
