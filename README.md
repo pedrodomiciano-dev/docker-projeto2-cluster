@@ -1,26 +1,26 @@
-# Docker Swarm Cluster com Vagrant
+# Docker Swarm Cluster com Vagrant (Desafio da DIO)
 
-## 📖 Descrição
+## Descrição
 
-Este projeto demonstra a criação de um cluster Docker Swarm utilizando máquinas virtuais provisionadas automaticamente pelo Vagrant.
+Este projeto demonstra a criação de um cluster Docker Swarm utilizando máquinas virtuais com Vagrant.
 
-O ambiente é composto por um nó **Manager** e dois nós **Workers**, todos executando Ubuntu Server com Docker instalado automaticamente durante o provisionamento.
+O ambiente é composto por um nó **Master** e dois nós **Workers**, executandos no Ubuntu Server com Docker instalado automaticamente durante o provisionamento.
 
 Este projeto foi desenvolvido como prática da formação **Docker Fundamentals** da DIO.
 
 ---
 
-## 🛠 Tecnologias utilizadas
+## Tecnologias 
 
 * Docker Engine
 * Docker Swarm
 * Vagrant
 * VirtualBox
-* Ubuntu Server 22.04
+* Ubuntu Server
 
 ---
 
-## 📂 Estrutura do projeto
+## Estrutura do projeto
 
 ```
 .
@@ -53,39 +53,39 @@ Este projeto foi desenvolvido como prática da formação **Docker Fundamentals*
 
 ---
 
-## 🚀 Como executar
+## Como executar
 
-Clone o repositório:
+1- Clone o repositório:
 
 ```bash
 git clone https://github.com/pedrodomiciano-dev/docker-projeto2-cluster.git
 ```
 
-Entre na pasta:
+2- Entre na pasta:
 
 ```bash
 cd docker-projeto2-cluster
 ```
 
-Inicie o ambiente:
+3- Inicie o ambiente:
 
 ```bash
 vagrant up
 ```
 
-Acesse o nó Manager:
+4- Acesse o nó Manager:
 
 ```bash
 vagrant ssh master
 ```
 
-Verifique os nós do cluster:
+5- Verifique os nós do cluster:
 
 ```bash
 docker node ls
 ```
 
-Verifique os serviços:
+6- Verifique os serviços:
 
 ```bash
 docker service ls
@@ -93,49 +93,20 @@ docker service ls
 
 ---
 
-## 📜 Scripts
+## Scripts e suas funçoes:
 
 ### docker.sh
 
-Responsável por instalar o Docker em todas as máquinas virtuais.
+Instala o Docker em todas as máquinas virtuais.
 
-### mestre.sh
+### master.sh
 
 Inicializa o Docker Swarm e configura a máquina Master como Manager.
 
-### trabalhador.sh
+### worker.sh
 
 Adiciona automaticamente os nós Worker ao cluster utilizando o token gerado pelo Manager.
 
 ---
 
-## 🎯 Objetivo
 
-Demonstrar na prática:
-
-* Provisionamento automatizado com Vagrant;
-* Instalação automática do Docker;
-* Criação de um cluster Docker Swarm;
-* Comunicação entre Manager e Workers;
-* Automação utilizando Shell Script.
-
----
-
-## 📚 Aprendizados
-
-Durante este projeto foram praticados conceitos como:
-
-* Docker Swarm;
-* Orquestração de containers;
-* Provisionamento de máquinas virtuais;
-* Shell Script;
-* Redes privadas no Vagrant;
-* Cluster Manager e Worker.
-
----
-
-## 👨‍💻 Autor
-
-Pedro Domiciano
-
-GitHub: https://github.com/pedrodomiciano-dev
