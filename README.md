@@ -36,7 +36,7 @@ Este projeto foi desenvolvido como prática da formação **Docker Fundamentals*
 ## Arquitetura (para melhor visualização)
 
 ```
-![Arquitetura do Cluster](https://github.com/pedrodomiciano-dev/docker-projeto2-cluster/blob/main/images/Docker%20PNG%20exemplo.png)
+![Arquitetura do Cluster](Docker PNG exemplo.png)
 
 ```
 
